@@ -1,0 +1,13 @@
+#prefix contrl + Space
+set -g prefix C-Space
+unbind C-b
+
+#hrizon to y (yoko), vertical to t (tate)
+bind y split-window -h
+bind t split-window -v
+
+# panet size (alt key)
+bind-key -n M-Up resize-pane -U 5
+bind-key -n M-Down resize-pane -D 5
+bind-key -n M-Left resize-pane -L 5
+bind-key -n M-Right resize-pane -R 5
